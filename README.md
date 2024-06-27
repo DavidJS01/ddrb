@@ -1,4 +1,5 @@
 # Example Output
+Outputs a latex file using a yaml file. That latex can be converted to a pdf like below if desired.
 ![A rendered resume file](assets/example-rendered-resume.png)
 
 # David's Declarative Resume Builder
@@ -6,9 +7,9 @@ This is a somewhat hacky, messy, not-so-refined declarative resume builder that 
 
 I wanted to manage my resumes in version control, and I took a template from latexresu.me and modified it a bit.
 
-It was a little annoying modifying my resume in WYSIWG editors and I wanted to simply use a friendly format, so I created this.
+It was a little annoying modifying my resume in WYSIWG editors and I wanted to simply use a friendly format in the terminal, so I created this.
 
-This project will either read from an input.json file, or a yaml.json file, and output a latex file.
+This project will either read from an input.json file, or a input.yaml file, and output a latex file.
 
 **This is not actively maintained. Features will not be added at request because this is just my personal workflow, published. If you use this tool and want to make it fit your use case that is not supported, fork and edit the project.**
 
