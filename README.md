@@ -45,12 +45,12 @@ ddrb --file_path ~/projects/resume_builder/input.yaml
 
 ```
 
-# With Filepath (JSON input)
+## With Filepath (JSON input)
 ```sh
 ddrb --file_path ~/projects/resume_builder/input.json
 ```
 
-# Also Build PDF
+## Also Build PDF
 ```sh
 # add the --pdf flag
 ddrb --file_path ~/projects/resume_builder/input.yaml --pdf
