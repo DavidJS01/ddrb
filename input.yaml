@@ -1,0 +1,64 @@
+# special latex characters are not escaped by the program, thus if you are including special characters, you need to escape them
+# this include %, $, etc. usually just prepend \\, like: `gained 900 \\% more followers on LinkedIn`
+# https://stackoverflow.com/a/2541769
+
+# renders any amount of education, skills, experience, projects
+user:
+  name: "First Last"
+  email: "firstlast@gmail.com"
+  phone_number: "(123) 456-7890"
+  github_url: "github.com/DavidJS01"
+
+education:
+  - name: "Western Example University"
+    location: "Niceville, FL"
+    degree: "BS Computer Science"
+    dates_attended: "2023" # this can be any string, like "Aug 2021 - Aug 2023"
+  - name: "Northwest Florida State College"
+    location: "Niceville, FL"
+    degree: "AA General Education"
+    dates_attended: "2022"  # this can be any string, like "Aug 2021 - Aug 2023"
+
+skills:
+  - category: "Programming Languages" # this can be any string, replace with your skill category name
+    skills:
+      - "Haskell"
+      - "HTML"
+      - "Markdown"
+      - "YAML"
+  - category: "Databases and Cloud Computing"  # this can be any string, replace with your skill category name
+    skills:
+      - "Postgres"
+      - "MySQL"
+  - category: "Scheduling and Tools"  # this can be any string, replace with your skill category name
+    skills:
+      - "Docker"
+      - "Kubernetes"
+
+experience:
+  - organization_name: "Startup 1"
+    position_title: "Software Engineer"
+    location: "New York City, NY"
+    worked_dates: "March 2021 - January 2021"
+    bullet_points:
+      - "Created feature a"
+      - "Created feature b"
+      - "Implemented feature A which resulted in 80\\% more tech debt and 200\\% more suffering"
+      - "Implemented feature A which resulted in 80\\% more tech debt and 200\\% more suffering"
+      
+  - organization_name: "Startup -1"
+    position_title: "Data Engineer"
+    location: "Chicago, IL"
+    worked_dates: "June 2020 - March 2021"
+    bullet_points:
+      - "Used shiny new technology"
+      - "Implemented feature A which resulted in 80\\% more tech debt and 200\\% more suffering"
+      - "Implemented feature A which resulted in 80\\% more tech debt and 200\\% more suffering"
+      - "Implemented feature A which resulted in 80\\% more tech debt and 200\\% more suffering"
+projects:
+  - title: "Project Title Here"
+    url: "example.com"
+    description: "Fun project"
+    technologies: # this can get cramped easily, feel free to exclude. it looks better imo 
+      - "MySQL"
+      - "HTML"

@@ -1,0 +1,84 @@
+{
+  "user": {
+    "name": "First Last",
+    "email": "firstlast@gmail.com",
+    "phone_number": "(123) 456-7890",
+    "github_url": "github.com/DavidJS01"
+  },
+  "education": [
+    {
+      "name": "Western Example University",
+      "location": "Niceville, FL",
+      "degree": "BS Computer Science",
+      "dates_attended": "2023"
+    },
+    {
+      "name": "Northwest Florida State College",
+      "location": "Niceville, FL",
+      "degree": "AA General Education",
+      "dates_attended": "2022"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "skills": [
+        "Haskell",
+        "HTML",
+        "Markdown",
+        "YAML"
+      ]
+    },
+    {
+      "category": "Databases and Cloud Computing",
+      "skills": [
+        "Postgres",
+        "MySQL"
+      ]
+    },
+    {
+      "category": "Scheduling and Tools",
+      "skills": [
+        "Docker",
+        "Kubernetes"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "organization_name": "Startup 1",
+      "position_title": "Software Engineer",
+      "location": "New York City, NY",
+      "worked_dates": "March 2021 - January 2021",
+      "bullet_points": [
+        "Created feature a",
+        "Created feature b",
+        "Implemented feature A which resulted in 80% more tech debt and 200% more suffering",
+        "Implemented feature A which resulted in 80% more tech debt and 200% more suffering"
+      ]
+    },
+    {
+      "organization_name": "Startup -1",
+      "position_title": "Data Engineer",
+      "location": "Chicago, IL",
+      "worked_dates": "June 2020 - March 2021",
+      "bullet_points": [
+        "Used shiny new technology",
+        "Implemented feature A which resulted in 80% more tech debt and 200% more suffering",
+        "Implemented feature A which resulted in 80% more tech debt and 200% more suffering",
+        "Implemented feature A which resulted in 80% more tech debt and 200% more suffering"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project Title Here",
+      "url": "example.com",
+      "description": "Fun project",
+      "technologies": [
+        "MySQL",
+        "HTML"
+      ]
+    }
+  ]
+}
